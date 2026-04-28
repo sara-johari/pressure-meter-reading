@@ -1,0 +1,297 @@
+filename,position,predicted_value,unit,scale_min,scale_max,confidence,primary_scale,prompt_version,model,agent_notes,parse_error,raw_response
+1.jpg,outer,11.4,bar,0.0,12.0,medium,inner,v1,glm-4.6v,"The inner scale (psi) has more detailed tick marks, and the needle is clearly positioned on it. The outer scale (bar) reading is derived from the inner scale via conversion (1 bar ≈ 14.5 psi).",,"
+{
+  ""scales"": [
+    {
+      ""position"": ""outer"",
+      ""unit"": ""bar"",
+      ""scale_min"": 0,
+      ""scale_max"": 12,
+      ""predicted_value"": 11.4,
+      ""confidence"": ""medium""
+    },
+    {
+      ""position"": ""inner"",
+      ""unit"": ""psi"",
+      ""scale_min"": 0,
+      ""scale_max"": 170,
+      ""predicted_value"": 165,
+      ""confidence"": ""high""
+    }
+  ],
+  ""primary_scale"": ""inner"",
+  ""notes"": ""The inner scale (psi) has more detailed tick marks, and the needle is clearly positioned on it. The outer scale (bar) reading is derived from the inner scale via conversion (1 bar ≈ 14.5 psi).""
+}"
+1.jpg,inner,165.0,psi,0.0,170.0,high,inner,v1,glm-4.6v,"The inner scale (psi) has more detailed tick marks, and the needle is clearly positioned on it. The outer scale (bar) reading is derived from the inner scale via conversion (1 bar ≈ 14.5 psi).",,"
+{
+  ""scales"": [
+    {
+      ""position"": ""outer"",
+      ""unit"": ""bar"",
+      ""scale_min"": 0,
+      ""scale_max"": 12,
+      ""predicted_value"": 11.4,
+      ""confidence"": ""medium""
+    },
+    {
+      ""position"": ""inner"",
+      ""unit"": ""psi"",
+      ""scale_min"": 0,
+      ""scale_max"": 170,
+      ""predicted_value"": 165,
+      ""confidence"": ""high""
+    }
+  ],
+  ""primary_scale"": ""inner"",
+  ""notes"": ""The inner scale (psi) has more detailed tick marks, and the needle is clearly positioned on it. The outer scale (bar) reading is derived from the inner scale via conversion (1 bar ≈ 14.5 psi).""
+}"
+10.jpg,outer,3.5,bar,-1.0,6.0,high,outer,v1,glm-4.6v,,,"
+{
+  ""scales"": [
+    {
+      ""position"": ""outer"",
+      ""unit"": ""bar"",
+      ""scale_min"": -1,
+      ""scale_max"": 6,
+      ""predicted_value"": 3.5,
+      ""confidence"": ""high""
+    }
+  ],
+  ""primary_scale"": ""outer"",
+  ""notes"": """"
+}"
+2.jpg,inner,7.0,kg/cm²,0.0,20.0,medium,outer,v1,glm-4.6v,,,"
+{
+  ""scales"": [
+    {
+      ""position"": ""inner"",
+      ""unit"": ""kg/cm²"",
+      ""scale_min"": 0,
+      ""scale_max"": 20,
+      ""predicted_value"": 7,
+      ""confidence"": ""medium""
+    },
+    {
+      ""position"": ""outer"",
+      ""unit"": ""lb/in²"",
+      ""scale_min"": 0,
+      ""scale_max"": 150,
+      ""predicted_value"": 100,
+      ""confidence"": ""medium""
+    }
+  ],
+  ""primary_scale"": ""outer"",
+  ""notes"": """"
+}"
+2.jpg,outer,100.0,lb/in²,0.0,150.0,medium,outer,v1,glm-4.6v,,,"
+{
+  ""scales"": [
+    {
+      ""position"": ""inner"",
+      ""unit"": ""kg/cm²"",
+      ""scale_min"": 0,
+      ""scale_max"": 20,
+      ""predicted_value"": 7,
+      ""confidence"": ""medium""
+    },
+    {
+      ""position"": ""outer"",
+      ""unit"": ""lb/in²"",
+      ""scale_min"": 0,
+      ""scale_max"": 150,
+      ""predicted_value"": 100,
+      ""confidence"": ""medium""
+    }
+  ],
+  ""primary_scale"": ""outer"",
+  ""notes"": """"
+}"
+3.jpg,inner,9.0,psi,0.0,10.0,medium,inner,v1,glm-4.6v,"The inner scale (psi) ranges 0–10 with ticks at 0,2,4,6,8,10; the outer scale (kg/cm²) ranges 0–125 with ticks at 0,25,50,75,100,125. The needle points between 8 and 10 on the inner scale (≈9 psi) and between 100 and 125 on the outer scale (≈112.5 kg/cm²).",,"
+{
+  ""scales"": [
+    {
+      ""position"": ""inner"",
+      ""unit"": ""psi"",
+      ""scale_min"": 0,
+      ""scale_max"": 10,
+      ""predicted_value"": 9,
+      ""confidence"": ""medium""
+    },
+    {
+      ""position"": ""outer"",
+      ""unit"": ""kg/cm²"",
+      ""scale_min"": 0,
+      ""scale_max"": 125,
+      ""predicted_value"": 112.5,
+      ""confidence"": ""medium""
+    }
+  ],
+  ""primary_scale"": ""inner"",
+  ""notes"": ""The inner scale (psi) ranges 0–10 with ticks at 0,2,4,6,8,10; the outer scale (kg/cm²) ranges 0–125 with ticks at 0,25,50,75,100,125. The needle points between 8 and 10 on the inner scale (≈9 psi) and between 100 and 125 on the outer scale (≈112.5 kg/cm²).""
+}"
+3.jpg,outer,112.5,kg/cm²,0.0,125.0,medium,inner,v1,glm-4.6v,"The inner scale (psi) ranges 0–10 with ticks at 0,2,4,6,8,10; the outer scale (kg/cm²) ranges 0–125 with ticks at 0,25,50,75,100,125. The needle points between 8 and 10 on the inner scale (≈9 psi) and between 100 and 125 on the outer scale (≈112.5 kg/cm²).",,"
+{
+  ""scales"": [
+    {
+      ""position"": ""inner"",
+      ""unit"": ""psi"",
+      ""scale_min"": 0,
+      ""scale_max"": 10,
+      ""predicted_value"": 9,
+      ""confidence"": ""medium""
+    },
+    {
+      ""position"": ""outer"",
+      ""unit"": ""kg/cm²"",
+      ""scale_min"": 0,
+      ""scale_max"": 125,
+      ""predicted_value"": 112.5,
+      ""confidence"": ""medium""
+    }
+  ],
+  ""primary_scale"": ""inner"",
+  ""notes"": ""The inner scale (psi) ranges 0–10 with ticks at 0,2,4,6,8,10; the outer scale (kg/cm²) ranges 0–125 with ticks at 0,25,50,75,100,125. The needle points between 8 and 10 on the inner scale (≈9 psi) and between 100 and 125 on the outer scale (≈112.5 kg/cm²).""
+}"
+4.jpg,outer,85.0,psi,0.0,100.0,medium,inner,v1,glm-4.6v,,,"
+{
+  ""scales"": [
+    {
+      ""position"": ""outer"",
+      ""unit"": ""psi"",
+      ""scale_min"": 0,
+      ""scale_max"": 100,
+      ""predicted_value"": 85,
+      ""confidence"": ""medium""
+    },
+    {
+      ""position"": ""inner"",
+      ""unit"": ""kg/cm²"",
+      ""scale_min"": 0,
+      ""scale_max"": 7,
+      ""predicted_value"": 6.0,
+      ""confidence"": ""medium""
+    }
+  ],
+  ""primary_scale"": ""inner"",
+  ""notes"": """"
+}"
+4.jpg,inner,6.0,kg/cm²,0.0,7.0,medium,inner,v1,glm-4.6v,,,"
+{
+  ""scales"": [
+    {
+      ""position"": ""outer"",
+      ""unit"": ""psi"",
+      ""scale_min"": 0,
+      ""scale_max"": 100,
+      ""predicted_value"": 85,
+      ""confidence"": ""medium""
+    },
+    {
+      ""position"": ""inner"",
+      ""unit"": ""kg/cm²"",
+      ""scale_min"": 0,
+      ""scale_max"": 7,
+      ""predicted_value"": 6.0,
+      ""confidence"": ""medium""
+    }
+  ],
+  ""primary_scale"": ""inner"",
+  ""notes"": """"
+}"
+5.jpg,outer,80.0,psi,0.0,160.0,high,outer,v1,glm-4.6v,,,"
+{
+  ""scales"": [
+    {
+      ""position"": ""outer"",
+      ""unit"": ""psi"",
+      ""scale_min"": 0,
+      ""scale_max"": 160,
+      ""predicted_value"": 80,
+      ""confidence"": ""high""
+    }
+  ],
+  ""primary_scale"": ""outer"",
+  ""notes"": """"
+}"
+6.jpg,outer,,unknown,,,low,outer,v1,glm-4.6v,"The gauge details (scale numbers, unit, needle position) are not clearly visible in the image, preventing determination of a value.",,"
+{
+  ""scales"": [
+    {
+      ""position"": ""outer"",
+      ""unit"": ""unknown"",
+      ""scale_min"": null,
+      ""scale_max"": null,
+      ""predicted_value"": null,
+      ""confidence"": ""low""
+    }
+  ],
+  ""primary_scale"": ""outer"",
+  ""notes"": ""The gauge details (scale numbers, unit, needle position) are not clearly visible in the image, preventing determination of a value.""
+}"
+7.jpg,inner,130.0,psi,0.0,200.0,medium,inner,v1,glm-4.6v,,,"
+{
+  ""scales"": [
+    {
+      ""position"": ""inner"",
+      ""unit"": ""psi"",
+      ""scale_min"": 0,
+      ""scale_max"": 200,
+      ""predicted_value"": 130,
+      ""confidence"": ""medium""
+    }
+  ],
+  ""primary_scale"": ""inner"",
+  ""notes"": """"
+}"
+8.jpg,outer,,,,,unknown,,v1,glm-4.6v,"The image does not clearly show the pressure gauge dial, including scale markings, units, or needle position. Insufficient visual information to determine readings.",v1 response had empty scales array,"
+{
+  ""scales"": [],
+  ""primary_scale"": null,
+  ""notes"": ""The image does not clearly show the pressure gauge dial, including scale markings, units, or needle position. Insufficient visual information to determine readings.""
+}"
+9.jpg,inner,2200.0,bar,0.0,3000.0,medium,inner,v1,glm-4.6v,"Inner scale (bar) has numbers scaled by 100 (e.g., 1000 = 10 bar). Outer scale (psi) max is 315 psi. Needle position suggests ~22 bar (2200 on inner) and ~220 psi (outer), consistent with unit conversion (1 bar ≈ 14.5 psi).",,"
+{
+  ""scales"": [
+    {
+      ""position"": ""inner"",
+      ""unit"": ""bar"",
+      ""scale_min"": 0,
+      ""scale_max"": 3000,
+      ""predicted_value"": 2200,
+      ""confidence"": ""medium""
+    },
+    {
+      ""position"": ""outer"",
+      ""unit"": ""psi"",
+      ""scale_min"": 0,
+      ""scale_max"": 315,
+      ""predicted_value"": 220,
+      ""confidence"": ""medium""
+    }
+  ],
+  ""primary_scale"": ""inner"",
+  ""notes"": ""Inner scale (bar) has numbers scaled by 100 (e.g., 1000 = 10 bar). Outer scale (psi) max is 315 psi. Needle position suggests ~22 bar (2200 on inner) and ~220 psi (outer), consistent with unit conversion (1 bar ≈ 14.5 psi).""
+}"
+9.jpg,outer,220.0,psi,0.0,315.0,medium,inner,v1,glm-4.6v,"Inner scale (bar) has numbers scaled by 100 (e.g., 1000 = 10 bar). Outer scale (psi) max is 315 psi. Needle position suggests ~22 bar (2200 on inner) and ~220 psi (outer), consistent with unit conversion (1 bar ≈ 14.5 psi).",,"
+{
+  ""scales"": [
+    {
+      ""position"": ""inner"",
+      ""unit"": ""bar"",
+      ""scale_min"": 0,
+      ""scale_max"": 3000,
+      ""predicted_value"": 2200,
+      ""confidence"": ""medium""
+    },
+    {
+      ""position"": ""outer"",
+      ""unit"": ""psi"",
+      ""scale_min"": 0,
+      ""scale_max"": 315,
+      ""predicted_value"": 220,
+      ""confidence"": ""medium""
+    }
+  ],
+  ""primary_scale"": ""inner"",
+  ""notes"": ""Inner scale (bar) has numbers scaled by 100 (e.g., 1000 = 10 bar). Outer scale (psi) max is 315 psi. Needle position suggests ~22 bar (2200 on inner) and ~220 psi (outer), consistent with unit conversion (1 bar ≈ 14.5 psi).""
+}"

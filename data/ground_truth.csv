@@ -1,0 +1,11 @@
+﻿filename,true_value_outer,unit_outer,scale_min_outer,scale_max_outer,true_value_inner,unit_inner,scale_min_inner,scale_max_inner,notes
+1.jpg,10.7,bar,0,12,156,psi,0,174,
+2.jpg,40,lb/in^2,0,300,3,kg/cm^2,0,20,
+3.jpg,100,psi,0,150,7,kg/cm^2,0,10,
+4.jpg,86,lb/in^2,0,100,6.1,kg/cm^2,0,7,
+5.jpg,85,psi,0,160,nil,nil,nil,nil,
+6.jpg,0,bar,0,6,0,psi,0,86,
+7.jpg,9,kg/cm^2,0,15,125,psi,0,210,
+8.jpg,1.55,bar,0,4,22,psi,0,58,
+9.jpg,100,bar,0,315,1400,psi,0,4400,
+10.jpg,2.1,bar,0,6,nil,nil,nil,nil,
